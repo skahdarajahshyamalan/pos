@@ -777,6 +777,8 @@ class SellController extends Controller
      */
     public function show($id)
     {
+        return 'gfhf';
+        die();
         // if (!auth()->user()->can('sell.view') && !auth()->user()->can('direct_sell.access') && !auth()->user()->can('view_own_sell_only')) {
         //     abort(403, 'Unauthorized action.');
         // }
